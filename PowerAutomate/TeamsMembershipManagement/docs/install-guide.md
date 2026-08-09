@@ -94,7 +94,7 @@ Engage / Planner
 
 Users can select a Team Set by using a simple SharePoint Form.
 
-screenshots/03-forms-role-selection.png
+!./screenshots/03-forms-role-selection.png
 
 Example Team Sets:
 
