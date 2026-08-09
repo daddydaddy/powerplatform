@@ -1,10 +1,10 @@
-# Setup Guide
+## Setup Guide
 
 This document explains the architecture, design decisions, and configuration of the Teams Membership Management solution.
 
 ---
 
-# Purpose
+## Purpose
 
 Managing Microsoft Teams memberships manually becomes difficult as organizations grow.
 
@@ -28,13 +28,13 @@ The solution then automatically:
 
 ---
 
-# Solution Components
+## Solution Components
 
 The solution contains two Power Automate flows.
 
 ![Solution overview](../screenshots/solution-overview.png)
 
-## Bulk Add Members to Teams Groups by Team Set
+### Bulk Add Members to Teams Groups by Team Set
 
 Batch processing flow.
 
@@ -42,7 +42,7 @@ This flow is intended for administrators who want to process multiple users at o
 
 ---
 
-## Bulk Add Members to Teams Groups from Forms Responses
+### Bulk Add Members to Teams Groups from Forms Responses
 
 Self-service enrollment flow.
 
@@ -50,7 +50,7 @@ This flow is triggered when users submit a role selection form.
 
 ---
 
-# Overall Architecture
+## Overall Architecture
 
 ```text
 User
@@ -70,7 +70,7 @@ Engage / Planner
 
 ---
 
-# Team Set Concept
+## Team Set Concept
 
 A Team Set represents a business role.
 
@@ -94,7 +94,7 @@ This simplifies administration and reduces configuration errors.
 
 ---
 
-# Environment Variables
+## Environment Variables
 
 Deployment-specific settings are stored in Environment Variables.
 
@@ -123,9 +123,9 @@ Benefits:
 
 ---
 
-# Excel-Based Processing
+## Excel-Based Processing
 
-## Sample Excel Table
+### Sample Excel Table
 
 The batch processing version uses Excel as its data source.
 
@@ -149,7 +149,7 @@ Tokyo_Sales
 
 ---
 
-## Excel Flow Architecture
+### Excel Flow Architecture
 
 The Excel implementation processes all rows found in the table.
 
@@ -177,7 +177,7 @@ Remove Unnecessary Groups
 
 ---
 
-# Team Set Definition
+## Team Set Definition
 
 Team Sets are maintained using JSON.
 
@@ -206,11 +206,11 @@ Because the synchronization logic is independent of Team Set definitions, admini
 
 ---
 
-# Membership Synchronization Logic
+## Membership Synchronization Logic
 
 The synchronization engine compares current memberships with required memberships.
 
-## Current Memberships
+### Current Memberships
 
 ```text
 Tokyo Office
@@ -218,7 +218,7 @@ Development Department
 IT Support
 ```
 
-## Required Memberships
+### Required Memberships
 
 ```text
 Tokyo Office
@@ -226,21 +226,21 @@ Sales Department
 IT Support
 ```
 
-## Synchronization Result
+### Synchronization Result
 
-### Add
+#### Add
 
 ```text
 Sales Department
 ```
 
-### Remove
+#### Remove
 
 ```text
 Development Department
 ```
 
-## Final Memberships
+### Final Memberships
 
 ```text
 Tokyo Office

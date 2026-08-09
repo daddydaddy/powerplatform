@@ -1,14 +1,14 @@
-# Release Notes
+## Release Notes
 
 All notable changes to this project will be documented in this file.
 
 ---
 
-# Version 1.0.0
+## Version 1.0.0
 
 Release Date: 2026-08-07
 
-## Initial Release
+### Initial Release
 
 ### Features
 

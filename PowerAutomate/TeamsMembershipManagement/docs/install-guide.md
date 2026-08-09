@@ -1,8 +1,5 @@
----
-marp: true
----
 
-# Teams Membership Management
+## Teams Membership Management
 
 Power Automate solution for managing Microsoft Teams memberships using predefined Team Sets.
 
@@ -10,7 +7,7 @@ This solution allows administrators to manage complex Teams memberships through 
 
 ---
 
-# Overview
+### Overview
 
 Managing Microsoft Teams memberships manually becomes difficult as organizations grow.
 
@@ -33,13 +30,16 @@ Tokyo Sales Representative
 ├─ Tokyo Office
 ├─ Sales Department
 └─ IT Support
+## Teams Membership Management
+
+
 ```
 
 When a user is assigned to the Team Set, the solution automatically synchronizes Microsoft 365 Group memberships.
 
 ---
 
-# Solution Components
+## Solution Components
 
 The solution contains two Power Automate flows and several environment variables.
 
@@ -59,7 +59,7 @@ Self-service enrollment flow using SharePoint Forms.
 
 ---
 
-# Architecture
+## Architecture
 
 ```text
 User
@@ -79,7 +79,7 @@ Engage / Planner
 
 ---
 
-# Features
+## Features
 
 - Team Set based membership management
 - Bulk add users to Teams
@@ -94,7 +94,7 @@ Engage / Planner
 
 ---
 
-# Self-Service Enrollment
+## Self-Service Enrollment
 
 Users can select a Team Set by using a simple SharePoint Form.
 
@@ -116,7 +116,7 @@ After submission, memberships are automatically synchronized.
 
 ---
 
-# Excel Batch Processing
+## Excel Batch Processing
 
 The Excel version allows administrators to perform bulk membership updates.
 
@@ -134,7 +134,7 @@ The selected Team Set determines which Microsoft 365 Groups the user should belo
 
 ---
 
-# Team Set Examples
+## Team Set Examples
 
 | Team Set | Included Groups |
 |-----------|----------------|
@@ -146,9 +146,9 @@ The selected Team Set determines which Microsoft 365 Groups the user should belo
 
 ---
 
-# Flow Design
+## Flow Design
 
-## Excel-Based Flow
+### Excel-Based Flow
 
 ![Excel membership sync flow](../screenshots/excel-membership-sync-flow.png)
 
@@ -164,7 +164,7 @@ Processing steps:
 
 ---
 
-## Forms-Based Flow
+### Forms-Based Flow
 
 ![Forms membership sync flow](../screenshots/forms-membership-sync-flow.png)
 
@@ -179,7 +179,7 @@ Processing steps:
 
 ---
 
-# Environment Variables
+## Environment Variables
 
 The solution uses Environment Variables to separate configuration from business logic.
 
@@ -200,7 +200,7 @@ This makes deployment across Development, Test, and Production environments easi
 
 ---
 
-# SharePoint Configuration
+## SharePoint Configuration
 
 The Forms version uses a SharePoint Form to collect Role Set selections.
 
@@ -222,9 +222,9 @@ The available choices should match the Team Set names configured in the solution
 
 ---
 
-# Related Qiita Articles
+## Related Qiita Articles
 
-## TeamsやEngageの登録を効率化！チームセットによる一括登録の仕組み
+### TeamsやEngageの登録を効率化！チームセットによる一括登録の仕組み
 
 This article explains:
 
@@ -237,7 +237,7 @@ https://qiita.com/DaddyDaddy/items/886990cf4f88cba3c85f
 
 ---
 
-## Formsで役割を選択したら適切なチームに自動参加できる仕組みを作ってみた
+### Formsで役割を選択したら適切なチームに自動参加できる仕組みを作ってみた
 
 This article explains:
 
@@ -250,7 +250,7 @@ https://qiita.com/DaddyDaddy/items/f43ed39074a34b12df6b
 
 ---
 
-# Folder Structure
+## Folder Structure
 
 ```text
 TeamsMembershipManagement
@@ -271,7 +271,7 @@ TeamsMembershipManagement
 
 ---
 
-# Installation
+## Installation
 
 See:
 
@@ -281,7 +281,7 @@ docs/install-guide.md
 
 ---
 
-# Technical Design
+## Technical Design
 
 See:
 
@@ -291,7 +291,7 @@ docs/setup-guide.md
 
 ---
 
-# Roadmap
+## Roadmap
 
 Future enhancements may include:
 
@@ -304,7 +304,7 @@ Future enhancements may include:
 
 ---
 
-# Requirements
+## Requirements
 
 - Microsoft 365
 - Microsoft Teams
@@ -316,7 +316,7 @@ Premium licenses are not required for the basic implementation.
 
 ---
 
-# Disclaimer
+## Disclaimer
 
 This solution is provided as-is.
 
@@ -324,7 +324,7 @@ Always test in a non-production environment before deploying to production.
 
 ---
 
-# Author
+## Author
 
 GitHub
 
