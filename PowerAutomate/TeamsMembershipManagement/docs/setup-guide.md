@@ -32,7 +32,7 @@ The solution then automatically:
 
 The solution contains two Power Automate flows.
 
-../screenshots/solution-overview.png
+![Solution overview](../screenshots/solution-overview.png)
 
 ## Bulk Add Members to Teams Groups by Team Set
 
@@ -98,7 +98,7 @@ This simplifies administration and reduces configuration errors.
 
 Deployment-specific settings are stored in Environment Variables.
 
-../screenshots/environment-variables.png
+![Environment variables](../screenshots/environment-variables.png)
 
 Examples:
 
@@ -129,7 +129,7 @@ Benefits:
 
 The batch processing version uses Excel as its data source.
 
-../screenshots/excel-teamset-table.png
+![Excel Team Set table](../screenshots/excel-teamset-table.png)
 
 Required columns:
 
@@ -153,7 +153,7 @@ Tokyo_Sales
 
 The Excel implementation processes all rows found in the table.
 
-../screenshots/excel-membership-sync-flow.png
+![Excel membership sync flow](../screenshots/excel-membership-sync-flow.png)
 
 Processing sequence:
 
