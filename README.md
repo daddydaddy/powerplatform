@@ -10,3 +10,8 @@ PowerPlatform
 ├─ PowerAutomate
 ├─ PowerApps
 ├─ PowerBI
+
+
+## License
+
+This project is licensed under the MIT License.
