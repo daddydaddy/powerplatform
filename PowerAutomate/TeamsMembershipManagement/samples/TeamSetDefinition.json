@@ -1,0 +1,30 @@
+{
+  "NewEnployees_Tokyo": [
+    @{outputs('TokyoOffice')},
+    @{outputs('New_Employees')},
+    @{outputs('Training_Participants')},
+    @{outputs('IT_Support')}
+  ],
+  "NewEnployees_Osaka": [
+    @{outputs('OsakaOffice')},
+    @{outputs('New_Employees')},
+    @{outputs('Training_Participants')},
+    @{outputs('IT_Support')}
+  ],
+  "Tokyo_Sales": [
+    @{outputs('TokyoOffice')},
+    @{outputs('Sales_Department')},
+    @{outputs('IT_Support')}
+  ],
+  "Osaka_Sales": [
+    @{outputs('OsakaOffice')},
+    @{outputs('Sales_Department')},
+    @{outputs('IT_Support')}
+  ],
+  "Tokyo_SalesManager": [
+    @{outputs('TokyoOffice')},
+    @{outputs('Sales_Department')},
+    @{outputs('Managers_Communication')},
+    @{outputs('IT_Support')}
+  ]
+}
