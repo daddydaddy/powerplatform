@@ -39,7 +39,7 @@ When a user is assigned to the Team Set, the solution automatically synchronizes
 
 The solution contains two Power Automate flows and several environment variables.
 
-../screenshots/solution-overview.png
+/../screenshots/solution-overview.png
 
 ### Flow 1
 
@@ -94,7 +94,7 @@ Engage / Planner
 
 Users can select a Team Set by using a simple SharePoint Form.
 
-../screenshots/forms-role-selection.png
+/../screenshots/forms-role-selection.png
 
 Example Team Sets:
 
@@ -114,7 +114,7 @@ After submission, memberships are automatically synchronized.
 
 The Excel version allows administrators to perform bulk membership updates.
 
-../screenshots/excel-teamset-table.png
+/../screenshots/excel-teamset-table.png
 
 Required columns:
 
@@ -144,7 +144,7 @@ The selected Team Set determines which Microsoft 365 Groups the user should belo
 
 ## Excel-Based Flow
 
-../screenshots/excel-membership-sync-flow.png
+/../screenshots/excel-membership-sync-flow.png
 
 Processing steps:
 
@@ -160,7 +160,7 @@ Processing steps:
 
 ## Forms-Based Flow
 
-../screenshots/forms-membership-sync-flow.png
+/../screenshots/forms-membership-sync-flow.png
 
 Processing steps:
 
@@ -177,7 +177,7 @@ Processing steps:
 
 The solution uses Environment Variables to separate configuration from business logic.
 
-../screenshots/environment-variables.png
+/../screenshots/environment-variables.png
 
 Examples:
 
@@ -198,7 +198,7 @@ This makes deployment across Development, Test, and Production environments easi
 
 The Forms version uses a SharePoint Form to collect Role Set selections.
 
-../screenshots/sharepoint-form-creation.png
+/../screenshots/sharepoint-form-creation.png
 
 Recommended form name:
 
