@@ -26,10 +26,6 @@ Power Platform資産管理リポジトリです。Qiitaにたくさん記事を�
 
 # Qiita記事一覧
 
-## CSV
-
-- [Power BIのデータを改ページを使わずにPower Automateに渡す方法](https://qiita.com/DaddyDaddy/items/f2d31aa69abfb54f43db)
-
 ## CopilotStudio
 
 - [SPOサイトごとに別のCopilot Studioで作成したエージェントをSharePointにサイドパネルとして設置する。](https://qiita.com/DaddyDaddy/items/a6f684b97e8dd6ce714f)
@@ -55,6 +51,14 @@ Power Platform資産管理リポジトリです。Qiitaにたくさん記事を�
 
 - [Power Queryでファイル名に含まれる日付を使って、各月の最大日付だけ残す](https://qiita.com/DaddyDaddy/items/24ab449e0ec571c30411)
 - [Power BIで全角アルファベット等のイケてないマスタテーブルに遭遇した時の対処法](https://qiita.com/DaddyDaddy/items/62df23301075d9113917)
+
+## GitHub
+
+- [GitHubのREADME.mdにQiitaで投稿した記事へのリンクを自動記述させてみた](https://qiita.com/DaddyDaddy/items/2af2d04459393b8c62e2)
+
+## GitHubActions
+
+- [GitHubのREADME.mdにQiitaで投稿した記事へのリンクを自動記述させてみた](https://qiita.com/DaddyDaddy/items/2af2d04459393b8c62e2)
 
 ## GraphAPI
 
@@ -84,7 +88,6 @@ Power Platform資産管理リポジトリです。Qiitaにたくさん記事を�
 - [Power AutomateでSPOリストの複数行を爆速で一括更新する方法](https://qiita.com/DaddyDaddy/items/87dab3c6eed3d07193dc)
 - [SPOサイトごとに別のCopilot Studioで作成したエージェントをSharePointにサイドパネルとして設置する。](https://qiita.com/DaddyDaddy/items/a6f684b97e8dd6ce714f)
 - [Power Automateでユーザーにライセンス付与したり、サービスプランを制御したり](https://qiita.com/DaddyDaddy/items/35a3da5be1a6c073ab72)
-- [Power BIのデータを改ページを使わずにPower Automateに渡す方法](https://qiita.com/DaddyDaddy/items/f2d31aa69abfb54f43db)
 
 ## MicrosoftForms
 
@@ -114,7 +117,6 @@ Power Platform資産管理リポジトリです。Qiitaにたくさん記事を�
 - [Power Platformで初めてカスタムコネクタを作ってみた](https://qiita.com/DaddyDaddy/items/64d49423182ba96432a2)
 - [Power AutomateでSPOリストの複数行を爆速で一括更新する方法](https://qiita.com/DaddyDaddy/items/87dab3c6eed3d07193dc)
 - [Power Automateでユーザーにライセンス付与したり、サービスプランを制御したり](https://qiita.com/DaddyDaddy/items/35a3da5be1a6c073ab72)
-- [Power BIのデータを改ページを使わずにPower Automateに渡す方法](https://qiita.com/DaddyDaddy/items/f2d31aa69abfb54f43db)
 
 ## PowerBI
 
@@ -122,7 +124,6 @@ Power Platform資産管理リポジトリです。Qiitaにたくさん記事を�
 - [Power Queryでファイル名に含まれる日付を使って、各月の最大日付だけ残す](https://qiita.com/DaddyDaddy/items/24ab449e0ec571c30411)
 - [Power BIで閾値を超えたレポートをTeamsに表付きで知らせるPower Automateクラウドフローを作ってみた](https://qiita.com/DaddyDaddy/items/7c5163b08dd8444d23cd)
 - [Power BIで全角アルファベット等のイケてないマスタテーブルに遭遇した時の対処法](https://qiita.com/DaddyDaddy/items/62df23301075d9113917)
-- [Power BIのデータを改ページを使わずにPower Automateに渡す方法](https://qiita.com/DaddyDaddy/items/f2d31aa69abfb54f43db)
 
 ## PowerPlatform
 
@@ -143,12 +144,19 @@ Power Platform資産管理リポジトリです。Qiitaにたくさん記事を�
 - [Power AutomateでSPOリストの複数行を爆速で一括更新する方法](https://qiita.com/DaddyDaddy/items/87dab3c6eed3d07193dc)
 - [SPOサイトごとに別のCopilot Studioで作成したエージェントをSharePointにサイドパネルとして設置する。](https://qiita.com/DaddyDaddy/items/a6f684b97e8dd6ce714f)
 - [Power Automateでユーザーにライセンス付与したり、サービスプランを制御したり](https://qiita.com/DaddyDaddy/items/35a3da5be1a6c073ab72)
-- [Power BIのデータを改ページを使わずにPower Automateに渡す方法](https://qiita.com/DaddyDaddy/items/f2d31aa69abfb54f43db)
 
 ## PowerQuery
 
 - [Power Queryでファイル名に含まれる日付を使って、各月の最大日付だけ残す](https://qiita.com/DaddyDaddy/items/24ab449e0ec571c30411)
 - [Power BIで全角アルファベット等のイケてないマスタテーブルに遭遇した時の対処法](https://qiita.com/DaddyDaddy/items/62df23301075d9113917)
+
+## Python
+
+- [GitHubのREADME.mdにQiitaで投稿した記事へのリンクを自動記述させてみた](https://qiita.com/DaddyDaddy/items/2af2d04459393b8c62e2)
+
+## QiitaAPI
+
+- [GitHubのREADME.mdにQiitaで投稿した記事へのリンクを自動記述させてみた](https://qiita.com/DaddyDaddy/items/2af2d04459393b8c62e2)
 
 ## REST-API
 
