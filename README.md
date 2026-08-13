@@ -10,15 +10,17 @@ PowerPlatform
 ├─ PowerAutomate
 ├─ PowerApps
 ├─ PowerBI
-
+```
 
 ## License
 
 This project is licensed under the MIT License.
 
-# PowerPlatform
+## PowerPlatform
 
-Power Platform資産管理リポジトリです。
+Power Platform資産管理リポジトリです。Qiitaにたくさん記事を書いています。
+そのなかで作成したフローなどをGitHubで公開していこうとおもいます。
+
 
 <!-- QIITA_START -->
 
@@ -201,7 +203,3 @@ Power Platform資産管理リポジトリです。
 
 
 <!-- QIITA_END -->
-
-## Power Automate
-
-クラウドフロー一覧
