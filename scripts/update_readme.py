@@ -76,7 +76,7 @@ for article in articles:
 # Markdown生成
 # =====================================
 
-markdown = "# Qiita記事一覧\n\n"
+markdown = "## Qiita記事一覧\n\n"
 
 for tag_name in sorted(groups.keys()):
 
