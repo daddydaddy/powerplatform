@@ -2,6 +2,7 @@ from dotenv import load_dotenv
 from collections import defaultdict
 from pathlib import Path
 import os
+import json
 import requests
 
 # =====================================
@@ -33,6 +34,18 @@ response.raise_for_status()
 articles = response.json()
 
 # =====================================
+# JSON をファイルに保存 (デバッグ用)
+# =====================================
+
+# ROOT = Path(__file__).resolve().parent.parent
+# JSON_OUTPUT = ROOT / "scripts" / "qiita_articles.json"
+
+# with open(JSON_OUTPUT, "w", encoding="utf-8") as f:
+#     json.dump(articles, f, ensure_ascii=False, indent=2)
+
+# print(f"JSON を {JSON_OUTPUT} に保存しました")
+
+# =====================================
 # タグ別に分類
 # =====================================
 
@@ -42,7 +55,9 @@ for article in articles:
 
     title = article["title"]
     url = article["url"]
-
+    stocks_count = article["stocks_count"]
+    page_views_count = article["page_views_count"]
+    likes_count = article["likes_count"] 
     tags = article["tags"]
 
     for tag in tags:
@@ -51,7 +66,10 @@ for article in articles:
 
         groups[tag_name].append({
             "title": title,
-            "url": url
+            "url": url,
+            "stocks_count": stocks_count,
+            "page_views_count": page_views_count, 
+            "likes_count": likes_count
         })
 
 # =====================================
@@ -65,7 +83,7 @@ for tag_name in sorted(groups.keys()):
     markdown += f"## {tag_name}\n\n"
 
     for item in groups[tag_name]:
-        markdown += f"- [{item['title']}]({item['url']})\n"
+        markdown += f"- [{item['title']}]({item['url']}) - pageviews {item['page_views_count']}, likes {item['likes_count']},  stocks {item['stocks_count']}\n"
 
     markdown += "\n"
 
