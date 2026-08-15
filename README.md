@@ -53,6 +53,7 @@ Power Platform資産管理リポジトリです。Qiitaにたくさん記事を�
 
 ## GitHub
 
+- [Git初心者の独りプルリク筋トレ記録　VS CodeのGUIだけでブランチ作成からPull Request・マージまでやってみた](https://qiita.com/DaddyDaddy/items/02eccca0c8146b678065) - pageviews 6, likes 0,  stocks 0
 - [GitHubのREADME.mdにQiitaで投稿した記事へのリンクを自動記述させてみた](https://qiita.com/DaddyDaddy/items/2af2d04459393b8c62e2) - pageviews 160, likes 1,  stocks 1
 
 ## GitHubActions
@@ -62,7 +63,6 @@ Power Platform資産管理リポジトリです。Qiitaにたくさん記事を�
 ## GraphAPI
 
 - [Microsoft 365ライセンスの契約数と割当済みをPower Automateで定期取得、Power BIで変化を見える化する方法](https://qiita.com/DaddyDaddy/items/20f4e6452b12aa2e3a1b) - pageviews 5652, likes 8,  stocks 6
-- [Power Automateでユーザーにライセンス付与したり、サービスプランを制御したり](https://qiita.com/DaddyDaddy/items/35a3da5be1a6c073ab72) - pageviews 3366, likes 11,  stocks 3
 
 ## LMStudio
 
@@ -86,7 +86,6 @@ Power Platform資産管理リポジトリです。Qiitaにたくさん記事を�
 - [Power Platformで初めてカスタムコネクタを作ってみた](https://qiita.com/DaddyDaddy/items/64d49423182ba96432a2) - pageviews 3273, likes 3,  stocks 1
 - [Power AutomateでSPOリストの複数行を爆速で一括更新する方法](https://qiita.com/DaddyDaddy/items/87dab3c6eed3d07193dc) - pageviews 2643, likes 8,  stocks 2
 - [SPOサイトごとに別のCopilot Studioで作成したエージェントをSharePointにサイドパネルとして設置する。](https://qiita.com/DaddyDaddy/items/a6f684b97e8dd6ce714f) - pageviews 1730, likes 4,  stocks 1
-- [Power Automateでユーザーにライセンス付与したり、サービスプランを制御したり](https://qiita.com/DaddyDaddy/items/35a3da5be1a6c073ab72) - pageviews 3366, likes 11,  stocks 3
 
 ## MicrosoftForms
 
@@ -115,7 +114,6 @@ Power Platform資産管理リポジトリです。Qiitaにたくさん記事を�
 - [委任のサービスプリンシパルを使ってPower AutomateでDataverseの使用済み容量を取得する](https://qiita.com/DaddyDaddy/items/bfdade55deb803029958) - pageviews 1219, likes 2,  stocks 0
 - [Power Platformで初めてカスタムコネクタを作ってみた](https://qiita.com/DaddyDaddy/items/64d49423182ba96432a2) - pageviews 3273, likes 3,  stocks 1
 - [Power AutomateでSPOリストの複数行を爆速で一括更新する方法](https://qiita.com/DaddyDaddy/items/87dab3c6eed3d07193dc) - pageviews 2643, likes 8,  stocks 2
-- [Power Automateでユーザーにライセンス付与したり、サービスプランを制御したり](https://qiita.com/DaddyDaddy/items/35a3da5be1a6c073ab72) - pageviews 3366, likes 11,  stocks 3
 
 ## PowerBI
 
@@ -142,7 +140,6 @@ Power Platform資産管理リポジトリです。Qiitaにたくさん記事を�
 - [Power Platformで初めてカスタムコネクタを作ってみた](https://qiita.com/DaddyDaddy/items/64d49423182ba96432a2) - pageviews 3273, likes 3,  stocks 1
 - [Power AutomateでSPOリストの複数行を爆速で一括更新する方法](https://qiita.com/DaddyDaddy/items/87dab3c6eed3d07193dc) - pageviews 2643, likes 8,  stocks 2
 - [SPOサイトごとに別のCopilot Studioで作成したエージェントをSharePointにサイドパネルとして設置する。](https://qiita.com/DaddyDaddy/items/a6f684b97e8dd6ce714f) - pageviews 1730, likes 4,  stocks 1
-- [Power Automateでユーザーにライセンス付与したり、サービスプランを制御したり](https://qiita.com/DaddyDaddy/items/35a3da5be1a6c073ab72) - pageviews 3366, likes 11,  stocks 3
 
 ## PowerQuery
 
@@ -161,7 +158,6 @@ Power Platform資産管理リポジトリです。Qiitaにたくさん記事を�
 
 - [委任のサービスプリンシパルを使ってPower AutomateでDataverseの使用済み容量を取得する](https://qiita.com/DaddyDaddy/items/bfdade55deb803029958) - pageviews 1219, likes 2,  stocks 0
 - [Power Platformで初めてカスタムコネクタを作ってみた](https://qiita.com/DaddyDaddy/items/64d49423182ba96432a2) - pageviews 3273, likes 3,  stocks 1
-- [Power Automateでユーザーにライセンス付与したり、サービスプランを制御したり](https://qiita.com/DaddyDaddy/items/35a3da5be1a6c073ab72) - pageviews 3366, likes 11,  stocks 3
 
 ## SecurityGroup
 
@@ -185,6 +181,7 @@ Power Platform資産管理リポジトリです。Qiitaにたくさん記事を�
 
 ## VSCode
 
+- [Git初心者の独りプルリク筋トレ記録　VS CodeのGUIだけでブランチ作成からPull Request・マージまでやってみた](https://qiita.com/DaddyDaddy/items/02eccca0c8146b678065) - pageviews 6, likes 0,  stocks 0
 - [VS CodeにContinueを使ってローカルLLMに接続する](https://qiita.com/DaddyDaddy/items/42269f5230c5eaef0661) - pageviews 6813, likes 4,  stocks 1
 
 ## ライセンス
@@ -194,6 +191,10 @@ Power Platform資産管理リポジトリです。Qiitaにたくさん記事を�
 ## ローカルLLM
 
 - [VS CodeにContinueを使ってローカルLLMに接続する](https://qiita.com/DaddyDaddy/items/42269f5230c5eaef0661) - pageviews 6813, likes 4,  stocks 1
+
+## 初心者
+
+- [Git初心者の独りプルリク筋トレ記録　VS CodeのGUIだけでブランチ作成からPull Request・マージまでやってみた](https://qiita.com/DaddyDaddy/items/02eccca0c8146b678065) - pageviews 6, likes 0,  stocks 0
 
 ## 効率化
 
@@ -207,5 +208,6 @@ Power Platform資産管理リポジトリです。Qiitaにたくさん記事を�
 ## 生成AI
 
 - [SPOサイトごとに別のCopilot Studioで作成したエージェントをSharePointにサイドパネルとして設置する。](https://qiita.com/DaddyDaddy/items/a6f684b97e8dd6ce714f) - pageviews 1730, likes 4,  stocks 1
+
 
 <!-- QIITA_END -->
