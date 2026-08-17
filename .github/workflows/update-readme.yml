@@ -1,0 +1,48 @@
+name: Update README
+
+on:
+  schedule:
+    # 毎週月曜 09:00 JST (00:00 UTC)
+    - cron: "0 0 * * 1"
+
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install requests python-dotenv
+
+      - name: Run script
+        env:
+          QIITA_TOKEN: ${{ secrets.QIITA_TOKEN }}
+        run: |
+          python scripts/update_readme.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add README.md
+
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Update README from Qiita"
+            git push
+          fi
